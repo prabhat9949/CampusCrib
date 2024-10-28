@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Crib - Home</title>
+    <!-- Add Tailwind CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+ <!-- Navigation -->
+ <nav class="bg-green-800 text-gray-300 p-4 shadow-md">
+  <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold transition-transform transform hover:scale-105">Campus Crib</a>
+      <ul class="flex space-x-6">
+          <li><a href="home.html" class="hover:text-blue-400">Home</a></li>
+          <li><a href="about.html" class="hover:text-blue-400">About</a></li>
+          <li><a href="listing.html" class="hover:text-blue-400">Listings</a></li>
+          <li><a href="contacts.html" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+  </div>
+</nav>
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-6 py-10 bg-cover bg-center" style="background-image: url('https://example.com/your-background-image.jpg');">
+        
+        <!-- Welcome Section with Search Bar -->
+        <section class="text-center mb-16">
+          <h1 class="text-6xl font-bold mb-4 text-gray-900">Welcome to Campus Crib</h1>
+          <p class="text-xl text-gray-700 mb-8">Your perfect student accommodation awaits</p>
+          <div class="relative inline-block w-full max-w-md mb-8">
+            <!-- <input 
+              type="text" 
+              placeholder="Search for listings near your college..." 
+              class="w-full h-12 px-4 border border-gray-300 rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition duration-300"
+            />
+            <button class="absolute inset-y-0 right-0 px-4 py-2 bg-teal-600 text-white rounded-full hover:bg-teal-700 transition duration-300 shadow-lg">
+              Search
+            </button> -->
+          </div>
+        </section>
+  
+        <!-- Listings Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
+          <!-- PG Accommodations -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20220428/pngtree-hostel-cartoon-flat-illustration-room-image_1110131.jpg" alt="PG Accommodations" class="w-full h-48 object-cover" />
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-4 text-gray-900">PG Accommodations</h2>
+              <p class="text-gray-600">Comfortable and affordable PG options for students.</p>
+            </div>
+          </div>
+          <!-- Mess Facilities -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+            <img src="https://t3.ftcdn.net/jpg/06/63/53/62/360_F_663536268_zxtniBUfI2CH8KvXYl7gYfwXXECB8BZK.jpg" alt="Mess Facility" class="w-full h-48 object-cover" />
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-4 text-gray-900">Mess Facilities</h2>
+              <p class="text-gray-600">Delicious and nutritious meals for busy students.</p>
+            </div>
+          </div>
+          <!-- Study Areas -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+            <img src="https://zenlayercdn.centuryply.com/blogimage/15-02-24/blog28-1.jpg" alt="Study Area" class="w-full h-48 object-cover" />
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-4 text-gray-900">Study Areas</h2>
+              <p class="text-gray-600">Quiet and well-equipped spaces for focused studying.</p>
+            </div>
+          </div>
+        </section>
+  
+        <!-- Why Choose Section -->
+        <section class="text-center mb-16">
+          <h2 class="text-4xl font-bold mb-6 text-gray-900">Why Choose Campus Crib?</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <!-- Affordable Housing -->
+            <div class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+              <img src="https://thumbs.dreamstime.com/z/affordable-text-written-word-red-round-stamp-sign-affordable-written-word-red-stamp-sign-251938477.jpg?w=768" alt="Affordable housing" class="w-full h-45 object-cover mb-4" />
+              <h3 class="text-xl font-semibold mb-2 text-gray-900">Affordable</h3>
+              <p class="text-gray-600">Budget-friendly options for every student.</p>
+            </div>
+        
+            <!-- Convenient Location -->
+            <div class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+              <img src="https://cdn-icons-png.flaticon.com/512/5706/5706483.png" alt="Convenient location" class="w-full h-45 object-cover mb-4" />
+              <h3 class="text-xl font-semibold mb-2 text-gray-900">Convenient</h3>
+              <p class="text-gray-600">Located near major universities and colleges.</p>
+            </div>
+        
+            <!-- Safe Environment -->
+            <div class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+              <img src="https://img.freepik.com/free-vector/24-hour-service-everyday-concept-background_1017-38129.jpg" alt="Safe environment" class="w-full h-45 object-cover mb-4" />
+              <h3 class="text-xl font-semibold mb-2 text-gray-900">Safe</h3>
+              <p class="text-gray-600">Secure environments with 24/7 support.</p>
+            </div>
+          </div>
+        </section>
+    </div>
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div>
+                  <h3 class="text-xl font-semibold mb-4">Campus Crib</h3>
+                  <p>Providing comfortable and affordable student accommodations since 2024.</p>
+              </div>
+              <div>
+                  <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                  <ul class="space-y-2">
+                      <li><a href="home.html" class="hover:text-blue-400">Home</a></li>
+                      <li><a href="about.html" class="hover:text-blue-400">About</a></li>
+                      <li><a href="listing.html" class="hover:text-blue-400">Listings</a></li>
+                      <li><a href="contacts.html" class="hover:text-blue-400">Contact</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                  <div class="flex space-x-4">
+                      <a href="https://github.com/prabhat9949" class="hover:text-blue-400"><i class="fab fa-github"></i></a>
+                      <a href="https://x.com/_prabhatsingh__?t=5UIUF62o1XGD3OO1HPuCDQ&s=09" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/_prabhat9949_/" target="_blank" class="hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="mt-8 text-center">
+              <p>&copy; 2024 Campus Crib. All rights reserved.</p>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
